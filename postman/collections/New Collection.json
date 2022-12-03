@@ -1,0 +1,1135 @@
+{
+	"info": {
+		"_postman_id": "e1c21bb1-8c74-4d64-a83c-d63178d480cd",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "24239209-e1c21bb1-8c74-4d64-a83c-d63178d480cd"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"id": "b631d38a-3443-4ca4-a64e-b364b867f5a8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "areej",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "negm",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "areejnegm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_num",
+							"value": "5195012498",
+							"type": "text"
+						},
+						{
+							"key": "password1",
+							"value": "coldpeach",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "coldpeach",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"register",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "20b9df5c-0a59-465d-9dd4-e24b49cb5556",
+					"name": "Register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "areej",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "negm",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "cold@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "phone_num",
+									"value": "5195012498",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "coldpeach",
+									"type": "text"
+								},
+								{
+									"key": "password2",
+									"value": "coldpeach",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/accounts/register/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"register",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 20:44:51 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "103"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"areej\",\n    \"last_name\": \"negm\",\n    \"email\": \"cold@gmail.com\",\n    \"avatar\": null,\n    \"phone_num\": 5195012498\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"id": "c2bcf350-3643-4dcd-83f6-14e3677d2adf",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "areej",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "negm",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "areejnegm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_num",
+							"value": "5195012498",
+							"type": "text"
+						},
+						{
+							"key": "password1",
+							"value": "coldpeach",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "coldpeach",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"register",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "ca6a9a1a-9fe1-4d81-9d9f-864362db8cb5",
+					"name": "Login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "cold@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "coldpeach",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/accounts/login/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"login",
+								""
+							]
+						}
+					},
+					"status": "Accepted",
+					"code": 202,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 20:46:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "52"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "csrftoken=SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE; expires=Fri, 01 Dec 2023 20:46:31 GMT; Max-Age=31449600; Path=/; SameSite=Lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "sessionid=vjhwh6sg3zz6n7ig8sei62m18i9vymp0; expires=Fri, 16 Dec 2022 20:46:31 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"cb860f439a4efd157d5c43fee39f6e7f76e49d50\"\n}"
+				}
+			]
+		},
+		{
+			"name": "logout",
+			"id": "854f45fe-2328-4efb-a2ea-cc83a7ab9bda",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "areej",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "negm",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "areejnegm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_num",
+							"value": "5195012498",
+							"type": "text"
+						},
+						{
+							"key": "password1",
+							"value": "coldpeach",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "coldpeach",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "subscribe",
+			"id": "b89112a3-178f-49d9-bb51-75faa3034f9c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "c3e5e51a49f23fc31e0ef410a45c7a7c33a04802",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "subscription_choices",
+							"value": "14.99/month",
+							"type": "text"
+						},
+						{
+							"key": "card_info",
+							"value": "123432",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/subscribe/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"subscribe",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "efd46d63-cf9c-414f-a6e1-81fe43a1de96",
+					"name": "subscribe",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-CSRFToken",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscription_plan\": {\n        \"id\": 3,\n        \"subscription_choices\": \"149.99/year\"\n    },\n    \"card_info\": 234543\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/accounts/subscribe/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"subscribe",
+								""
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 21:19:15 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "POST, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "111"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"subscription_plan\": {\n        \"id\": 4,\n        \"subscription_choices\": {\n            \"subscription_choices\": \"149.99/year\"\n        }\n    },\n    \"card_info\": 234543\n}"
+				}
+			]
+		},
+		{
+			"name": "subscribe update",
+			"id": "8bff7878-c4d8-4567-9e4e-8904f91d46b0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "c3e5e51a49f23fc31e0ef410a45c7a7c33a04802",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "subscription_choices",
+							"value": "14.99/month",
+							"type": "text"
+						},
+						{
+							"key": "card_info",
+							"value": "123432",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/subscribe/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"subscribe",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "8c3a87cb-1bcb-4dfd-a706-7083e400717b",
+					"name": "subscribe update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-CSRFToken",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"subscription_plan\": {\n        \"id\": 4,\n        \"subscription_choices\": \"Free\"\n    },\n    \"card_info\": 234543\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/accounts/subscribe/update/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"subscribe",
+								"update",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 21:24:44 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"subscription_plan\": {\n        \"id\": 5,\n        \"subscription_choices\": \"Free\"\n    },\n    \"card_info\": 234543\n}"
+				}
+			]
+		},
+		{
+			"name": "profile view",
+			"id": "b25a2463-9737-484e-bc52-3d9aede54982",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "c3e5e51a49f23fc31e0ef410a45c7a7c33a04802",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "subscription_choices",
+							"value": "14.99/month",
+							"type": "text"
+						},
+						{
+							"key": "card_info",
+							"value": "123432",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/subscribe/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"subscribe",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "a1b7fa5c-d656-4ad6-8a98-85870ac7263b",
+					"name": "profile view",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-{{CSRFToken}}",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/accounts/profile/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"profile",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 21:26:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "103"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"areej\",\n    \"last_name\": \"negm\",\n    \"email\": \"cold@gmail.com\",\n    \"avatar\": null,\n    \"phone_num\": 5195012498\n}"
+				}
+			]
+		},
+		{
+			"name": "profile update",
+			"id": "cd0df4fd-b191-41bf-ac34-97147dbb196a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "areej",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "negm",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "areejnegm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_num",
+							"value": "5195012498",
+							"type": "text"
+						},
+						{
+							"key": "password1",
+							"value": "coldpeach",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "coldpeach",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"register",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "b263d962-33bc-45c1-9b47-160681796bac",
+					"name": "profile update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "X-{{CSRFToken}}",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "first_name",
+									"value": "done",
+									"type": "text"
+								},
+								{
+									"key": "last_name",
+									"value": "negm",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "bye@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "phone_num",
+									"value": "5195012498",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "coldpeach",
+									"type": "text"
+								},
+								{
+									"key": "password2",
+									"value": "coldpeach",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/accounts/profile/update/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"profile",
+								"update",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 21:38:48 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "PUT, PATCH, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "101"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"first_name\": \"done\",\n    \"last_name\": \"negm\",\n    \"email\": \"bye@gmail.com\",\n    \"avatar\": null,\n    \"phone_num\": 5195012498\n}"
+				}
+			]
+		},
+		{
+			"name": "profile history",
+			"id": "8355d8ba-1751-4c42-b158-733276b811c7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "areej",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "negm",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "areejnegm@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "avatar",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "phone_num",
+							"value": "5195012498",
+							"type": "text"
+						},
+						{
+							"key": "password1",
+							"value": "coldpeach",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "coldpeach",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/accounts/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"accounts",
+						"register",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "cad0bd37-63e8-4870-a819-c999f80243de",
+					"name": "profile history",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-{{CSRFToken}}",
+								"value": "SHIiUap2Yu0OpUSeEldGvFSnHXdAJhIE",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/accounts/profile/history/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"accounts",
+								"profile",
+								"history",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 02 Dec 2022 21:40:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "WSGIServer/0.2 CPython/3.10.6"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept, Cookie"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Length",
+							"value": "126"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 3,\n        \"payment_date\": \"2022-12-02T21:19:15.770539Z\",\n        \"amount\": \"149.99\",\n        \"next_payment\": \"2023-12-02 21:19:15.754121\",\n        \"user\": 4\n    }\n]"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "9f1a3e1d-570d-49a5-bb66-34ecc400420c",
+			"key": "CSRFToken",
+			"value": "CSRFToken"
+		}
+	]
+}
